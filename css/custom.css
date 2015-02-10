@@ -22,6 +22,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 
 }
 
+a {
+ outline: 0;
+ }
+
+ a:hover, a:active, a:focus {
+ outline: 0;
+ }
 
 
 
@@ -945,20 +952,20 @@ input.errordesignfields, textarea.errordesignfields, select.errordesignfields { 
 .landing  {	
 	margin:0 auto;
 	margin-top:40px;	
-	width: 280px;
+	width: 275px;
 }
 
 .addy {
 	margin:10px 0 0 0;
 	border:1px solid #1C1C1B;
-	padding:12px 20px;
+	padding:15px 25px;
 	line-height:18px;
 	color:#1C1C1B!important;
 }
 .addy h1 {	
-	font-size:1.1em;
+	font-size:1em;
 	font-weight:bold;
-	padding:0 0 2px 0;
+	padding:0 0 1px 0;
 	margin:0;
 	/*
 	border-top:1px solid #1C1C1B;
